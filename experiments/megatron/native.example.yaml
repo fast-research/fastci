@@ -1,0 +1,19 @@
+# Paths are resolved relative to this file. Copy and edit for your server.
+scope: L1
+cadence: pr
+environment: dev
+environment_id: REPLACE_WITH_TORCH_TE_CUDA_AND_DRIVER_VERSIONS
+python: /opt/conda/envs/megatron/bin/python
+yq: /usr/local/bin/yq
+data_dir: /mnt/megatron-data
+hf_home: /mnt/hf-cache
+n_repeat: 1
+timeout_seconds: 3600
+trace: true
+trace_rate_hz: 50
+# workload_reduction: true  # Run a separate prefix alongside an eligible full workload.
+master_port: 29500
+# An explicitly bounded experimental baseline. No truncation by --limit is performed.
+cases:
+  - case-a1163be6691f372e
+  - case-f86ac810a6974cad

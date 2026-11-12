@@ -1,0 +1,64 @@
+# Paths are resolved relative to this file. Copy and edit for your server.
+scope: L1
+cadence: pr
+environment: dev
+environment_id: REPLACE_WITH_TORCH_TE_CUDA_AND_DRIVER_VERSIONS
+python: /opt/conda/envs/megatron/bin/python
+yq: /usr/local/bin/yq
+data_dir: /mnt/megatron-data
+hf_home: /mnt/hf-cache
+n_repeat: 1
+timeout_seconds: 3600
+trace: true
+trace_rate_hz: 50
+# workload_reduction: true  # Run a separate prefix alongside an eligible full workload.
+master_port: 29500
+# The 47 benchmark references are resolved from the pinned upstream recipes.
+cases:
+  - case-1a17121b940e607f
+  - case-a1163be6691f372e
+  - case-f86ac810a6974cad
+  - case-e04ed0147f2b2c5d
+  - case-79d31cffb8b4ae0a
+  - case-2f1932288e197cce
+  - case-a458ad46f267bd48
+  - case-ff56db2b75d962da
+  - case-99b2b5377c359ce0
+  - case-fb75108c53c743c9
+  - case-2fa09046e149471b
+  - case-c276a4a1013e9d57
+  - case-d764003a40646ab7
+  - case-0033c4bbf88e07ea
+  - case-dacbcd13f63d6de6
+  - case-04f198c95e57a4ab
+  - case-343a2715c64e6bef
+  - case-016cb048f62cb59c
+  - case-8b8cb3033034bb2d
+  - case-9309a01c63b00e46
+  - case-ebe72bf52ce8d1e6
+  - case-d02581eabbd15189
+  - case-df58c05e4f0b302a
+  - case-855f290d96aa7660
+  - case-0d9eb828b76dca9a
+  - case-9dbb1ea9ed3314c1
+  - case-2a440d32a3f464c6
+  - case-379badbd425807bc
+  - case-8ea9a664d414395d
+  - case-66c6ba931314bc7d
+  - case-9db7d7fa43b59ad6
+  - case-88a6c348e5e19264
+  - case-02989692b2841a8a
+  - case-0be1a6e7c8677940
+  - case-108df0a664d7ede2
+  - case-f6d81085a79fecba
+  - case-c5ba60a2bad09ba7
+  - case-de6416c81a944b11
+  - case-2c35ff1341b1090a
+  - case-19688baac2f08685
+  - case-313c90a100ffd3f5
+  - case-6e04160857a210a7
+  - case-eae6a48038009a69
+  - case-e757a31d03236919
+  - case-8f31fd1d4a1a2326
+  - case-93b470ba6ba03244
+  - case-27199d4b140fb880

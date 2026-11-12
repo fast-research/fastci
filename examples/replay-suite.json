@@ -1,0 +1,7 @@
+{
+  "schema": 1,
+  "tests": [
+    {"name": "smoke", "gpus": 1, "hardware": "gpu"},
+    {"name": "distributed", "gpus": 2, "hardware": "gpu"}
+  ]
+}

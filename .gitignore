@@ -1,0 +1,13 @@
+__pycache__/
+*.egg-info/
+.venv/
+build/
+dist/
+.fastci/
+.ruff_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+.DS_Store
+*.log
+*.speedscope

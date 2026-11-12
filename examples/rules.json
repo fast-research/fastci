@@ -1,0 +1,4 @@
+{
+  "reductions": {"layers": 2, "sequence": 128, "logging": false},
+  "path_dimensions": {"*.validate_long_sequence": ["sequence"]}
+}

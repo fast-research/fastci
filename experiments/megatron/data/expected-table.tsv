@@ -1,0 +1,9 @@
+strategy	recall_percent	retention_percent	net_gpu_savings_percent
+Full CI	100.00	100.00	0.00
+Megatron L0	5.22	72.65	94.01
+Codex Planner	53.58	74.90	83.06
+NameRTS (Megatron)	87.32	91.07	32.97
+FastCI without CEP or file matching	82.66	99.20	68.40
+FastCI without CEP, with file matching	94.59	99.64	32.11
+FastCI with CEP, without file matching	64.10	98.21	77.63
+FastCI with CEP and file matching	93.52	99.64	32.63

@@ -1,0 +1,13 @@
+include LICENSE README.md CONTRIBUTING.md .gitignore
+recursive-include .github *.yml
+recursive-include docs *.md
+recursive-include examples *.py *.json *.csv
+include examples/mock_project/.gitignore
+recursive-include experiments/megatron *.py *.yaml *.txt *.md *.gz *.json *.tsv SHA256SUMS
+recursive-include tests *.py
+recursive-include scripts *.py
+recursive-include trace_hook *.py
+global-exclude __pycache__ *.py[cod] .DS_Store
+prune .fastci
+prune .ruff_cache
+prune .pytest_cache
